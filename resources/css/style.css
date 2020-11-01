@@ -39,36 +39,49 @@ header {
 /* Banner Section */
 
 .banner {
-    background-color: blanchedalmond;
+    background-color: lightsteelblue;
     padding: 32px 24px;
     display: flex;
 }
 
 .banner .img-container {
     width: 60%;
+    height: auto;
 }
 
 .banner img {
     width: 100%;
-    height: auto;
     object-fit: cover;
     float: left;
 }
 
 .banner .content-container {
-    width: auto;
-    height: auto;
+    width: 40%;
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: center;
+    justify-content: space-around;
     padding-left: 24px;
 }
 
 .banner .content {
     float: left;
+    text-align: left;
+    color: midnightblue;
+}
+
+.banner h1 {
+    font-size: 64px;
+}
+
+.banner h2 {
+    font-size: 32px;
 }
 
 #start-button {
-    background-color: darkgray;
+    color: white;
+    padding: 8px 0;
+    background-color:  midnightblue;
+    font-size: 24px;
+    text-align: center;
+    width: 75%;
 }

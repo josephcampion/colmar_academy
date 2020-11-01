@@ -11,8 +11,18 @@ header {
     height: 64px;
 }
 
+h1 {
+    font-size: 64px;
+}
+
+.my-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
 .header-left {
-    padding-left: 24px;
     float: left;
     height: 32px;
     display: inline-flex;
@@ -32,7 +42,6 @@ header {
 
 .header-right {
     float: right;
-    padding-right: 24px;
     font-size: 18px;
 }
 
@@ -55,6 +64,8 @@ header {
     float: left;
 }
 
+/* Banner RHS */
+
 .banner .content-container {
     width: 40%;
     display: flex;
@@ -69,10 +80,6 @@ header {
     color: midnightblue;
 }
 
-.banner h1 {
-    font-size: 64px;
-}
-
 .banner h2 {
     font-size: 32px;
 }
@@ -85,3 +92,78 @@ header {
     text-align: center;
     width: 75%;
 }
+
+/* Information Section */
+
+.information {
+    background-color: white;
+    display: flex;
+}
+
+.information .info-left {
+    width: 60%;
+    padding: 32px 24px;
+    float: left;
+}
+
+.information .info-left img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Information LHS */
+
+.info-left .information-content {
+    text-align: left;
+    padding: 32px 0;
+}
+
+.information-content .info-title{
+    padding-bottom: 24px;
+}
+
+.information-content .info-quote{
+    padding-bottom: 24px;
+}
+
+/* Information RHS */
+
+.information .info-right {
+    width: 40%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 16px 0;
+}
+
+.info-right .event-info{
+    padding: 16px 16px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.event-info .event-img-container {
+    width: 35%;
+    justify-content: center;
+}
+
+.event-img-container img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.event-info .event-details {
+    width: 65%;
+    text-align: left;
+    padding: 0 16px;
+}
+
+.event-details h1 {
+    font-size: 48px;
+    padding-bottom: 8px;
+}
+
+.event-details h2 {
+    padding-bottom: 8px;
+}
+
